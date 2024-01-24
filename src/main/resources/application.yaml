@@ -1,0 +1,27 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  mail:
+    recipient: ${MAIL_RECIPIENT}
+    host: ${MAIL_HOST}
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
+            required: true
+        debug: true
+  application:
+    name: mailSender
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 1.94.63.237:8848
+        enabled: true

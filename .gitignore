@@ -1,0 +1,113 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/.vscode/
+.vscode-test/
+!**/src/main/**/.vscode/
+!**/src/test/**/.vscode/
+!**/src/main/**/!.vscode/
+!**/src/test/**/!.vscode/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+!**/src/main/**/.settings/
+!**/src/test/**/.settings/
+!**/src/main/**/settings/
+!**/src/test/**/settings/
+
+### Gradle ###
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/.gradle/
+!**/src/test/**/.gradle/
+!**/src/main/**/!.gradle/
+!**/src/test/**/!.gradle/
+
+### Maven ###
+.m2/
+maven-archiver/
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/.m2/
+!**/src/test/**/.m2/
+!**/src/main/**/!.m2/
+!**/src/test/**/!.m2/
+
+### Gradle ###
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/.gradle/
+!**/src/test/**/.gradle/
+!**/src/main/**/!.gradle/
+!**/src/test/**/!.gradle/
+
+### Maven ###
+.m2/
+maven-archiver/
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/.m2/
+!**/src/test/**/.m2/
+!**/src/main/**/!.m2/
+!**/src/test/**/!.m2/
+
+### Gradle ###
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/.gradle/
+!**/src/test/**/.gradle/
+!**/src/main/**/!.gradle/
+!**/src/test/**/!.gradle/
+
+### Maven ###
+.m2/
+maven-archiver/
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/.m2/
+!**/src/test/**
+.vscode/
+
+/tests
+/src/test/java/com/constantineqaq/mailsender/MailSenderApplicationTests.java

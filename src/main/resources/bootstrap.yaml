@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 1.94.63.237:8848
+        group: DEFAULT_GROUP
+        file-extension: properties
+        refresh-enabled: true
+        prefix: WYNbysj
