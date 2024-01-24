@@ -1,6 +1,6 @@
 spring:
   redis:
-    host: localhost
+    host: host.docker.internal
     port: 6379
   mail:
     recipient: ${MAIL_RECIPIENT}
